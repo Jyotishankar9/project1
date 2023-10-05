@@ -1,0 +1,132 @@
+header
+{
+    font-size: px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.sh{
+    font-weight: bold;
+    font-size: 25px;
+}
+.xx span{
+   
+    margin: 5px;
+}
+.xy{
+    background-color: red;
+    border-radius: 100px;
+    padding: 5px;
+    text-align: center;
+    width: 25px;
+    display: inline-block;
+}
+article{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    font-family: 'Times New Roman', Times, serif;            
+}
+.bi-lightning-charge-fill{
+    color: gold;
+}
+main{
+    height: 200px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px 240px;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.f{
+    padding-top: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    
+}
+.fh{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.f~span{
+    display: block;
+}
+.women-fashion {
+
+    background-image: url("./image/women.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    
+    }
+    
+   .men-fashion {
+    
+    background-image: url("./image/men.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    
+    }
+    
+    .kids-fashion {
+        background-image: url("./image/kids.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.5;
+    
+    
+    }
+    
+    .kids-fashion:hover {
+        opacity: 1;
+    }
+
+    .women-fashion:hover{
+        opacity: 1;
+    }
+        .men-fashion:hover {
+             opacity: 1;
+        }
+        
+        main {
+            height: 500px;
+            display: grid;
+            grid-template-columns: 4fr 4fr 4fr;
+            grid-gap: 4px;
+            margin-top: 5px;        
+        }   
+        
+        .card-title {
+        
+        font-size: 50px; 
+        font-weight: bold; 
+        color:white; 
+        text-shadow: 2px 2px 2px black;
+        }
+        
+        button {
+        
+        width: 200px; 
+        height: 50px; 
+        font-size: 20px;
+         background-color: white; 
+         border:none;
+          margin-top: 150px;
+        
+        }
+
